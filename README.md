@@ -25,9 +25,9 @@ community will answer you some questions.
 
 ### Translators
 
-- [pokurt](https://github.com/pokurt) - English
+- [pokurt](https://github.com/pokurt) - English & Spanish & Japanese
 - [iMat1n](https://github.com/iMat1n) - Persian
 - [iiiiii1wepfj](https://github.com/iiiiii1wepfj) - Hebrew
 - [breakdowns](https://github.com/breakdowns) - Indonasian
 - [dank-del](https://github.com/dank-del) - Bengali
-- [spkal01](https://github.com/spkal01) - Greek
+- [spkal01](https://github.com/spkal01) - Greek & English
