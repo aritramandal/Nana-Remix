@@ -1,7 +1,7 @@
 # Language
-language_switch_success_pm: "Tu preferencia de idioma se ha actualizado a {}"
+language_switch_success_pm: Tu preferencia de idioma se ha actualizado a {}
 language_not_supported: "{} aún no es compatible!"
-language_code_not_valid: "Ese no es un código de idioma válido. Utilice un código ISO aceptado internacionalmente!"
+language_code_not_valid: Ese no es un código de idioma válido. Utilice un código ISO aceptado internacionalmente!
 language_current_locale: "El idioma actual de este chat es: ** {} **"
 language_select_language: "**Seleccione el idioma** \n"
 # Assistant Help
@@ -65,3 +65,23 @@ permission_view_str: "<b>Permisos de chat: </b>\n<b>Enviar mensajes: </b> {}\n<b
 # Speed-Test
 speed_test_trigger: "Seleccione el modo SpeedTest"
 speed_test_running: "Ejecutar un speedtest...."
+# Gdrive Assistant
+gdrive_credential_err: "Hola, parece que no has iniciado sesión en Google Drive 🙂 \\ nPuedo ayudarte a iniciar sesión. \\ N \\ nEn primer lugar, debes activar la API de Google Drive\n1. [Vaya aquí] (https://developers.google.com/drive/api/v3/quickstart/python), haga clic en **Habilitar la API de Drive **\n2. Inicie sesión en su cuenta de Google (omita esto si ' ya está conectado)\n3. Después de iniciar sesión, haga clic en ** Habilitar la API de la unidad ** nuevamente y haga clic en el botón ** Descargar configuración del cliente **, descárguelo.\n4. Después de descargar ese archivo, ábralo y luego todo ese contenido, volver a telegram y luego hacer .credentials (copiar el contenido de ese archivo) prescindir del corchete\n\nDespués de eso, puede ir a la siguiente guía por tipo /gdrive"
+# Settings Module
+settings_userbot_stop: "-> Userbot: `Detenido (v {})`"
+settings_userbot_running: "-> Userbot: `Ejecutando (v {})`"
+settings_assistant_running: "-> Asistente: `Ejecutando (v {})`"
+settings_database: "-> Base de datos: `{}`"
+settings_python: "-> Python: `{}`"
+settings_userbot_stopbutton: "Detener bot"
+settings_userbot_startbutton: "Iniciar bot"
+settings_userbot_restartbutton: "Reiniciar Bot"
+settings_setstickerbutton: "Establecer etiqueta"
+settings_herokubutton: "configuración Heroku"
+settings_heroku_restartbutton: "Reinicie la aplicación Heroku"
+settings_change_repo_button: "Cambiar fuente de repositorio"
+settings_stats_botstart: "✅ ¡Bot se inició!"
+settings_stats_botstop: "❎ ¡Bot fue detenido!"
+settings_stats_botrestart: "✅ ¡Bot se reinició!"
+settings_bot_stoprestart_err: "Userbot ya detenido! Cancelar reinicio"
+settings_bot_restarting: "Espere a que el bot se reinicie ..."
