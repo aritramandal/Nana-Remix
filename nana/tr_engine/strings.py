@@ -14,7 +14,8 @@ LANGUAGES = [
     'bn',
     'el',
     'dv',
-    'es'
+    'es',
+    'ja'
 ]
 
 strings = {
@@ -24,7 +25,6 @@ strings = {
 
 def tld(t, _show_none=True):
     LANGUAGE = prev_locale(Owner)
-
     if LANGUAGE:
         LOCALE = LANGUAGE.locale_name
         if LOCALE in ('en-US') and t in strings['en-US']:
@@ -72,6 +72,11 @@ def tld(t, _show_none=True):
                 encode(strings['es'][t], 'latin-1', 'backslashreplace'),
                 'unicode-escape')
             return result
+        elif LOCALE in ('ja') and t in strings['ja']:
+            result = decode(
+                encode(strings['ja'][t], 'latin-1', 'backslashreplace'),
+                'unicode-escape')
+            return result
 
     if t in strings['en-US']:
         result = decode(
@@ -107,6 +112,8 @@ def tld_list(t):
             return strings['dv'][t]
         elif LOCALE in ('es') and t in strings['es']:
             return strings['es'][t]
+        elif LOCALE in ('ja') and t in strings['ja']:
+            return strings['ja'][t]
 
     if t in strings['en-US']:
         return strings['en-US'][t]
