@@ -20,7 +20,7 @@ language_button_create = filters.create(language_button_callback)
 @setbot.on_callback_query(language_button_create)
 async def locale_button(client, query):
     lang_match = re.findall(
-        r"en-US|hi|he|id|fa|bn|el|dv|es|ja",
+        r"en-US|hi|he|id|fa|el|dv|es|ja",
         query.data
     )
     if lang_match:
@@ -44,11 +44,10 @@ async def locale_button(client, query):
         [InlineKeyboardButton("🇮🇱 עברית", callback_data="set_lang_he"),
         InlineKeyboardButton("🇮🇩 bahasa Indonesia", callback_data="set_lang_id")],
         [InlineKeyboardButton("🇮🇷 فارسی", callback_data="set_lang_fa"),
-        InlineKeyboardButton("🇧🇩 বাংলা", callback_data="set_lang_bn")],
+        InlineKeyboardButton("🇯🇵 日本人", callback_data="set_lang_ja")],
         [InlineKeyboardButton("🇬🇷 Ελληνικά", callback_data="set_lang_el"),
         InlineKeyboardButton("🇲🇻 ދިވެހި", callback_data="set_lang_dv")],
-        [InlineKeyboardButton("🇪🇸 Espanol", callback_data="set_lang_es"),
-        InlineKeyboardButton("🇯🇵 日本人", callback_data="set_lang_ja")]
+        [InlineKeyboardButton("🇪🇸 Espanol", callback_data="set_lang_es")]
     ]
     await client.edit_message_text(chat_id=Owner, message_id=query.message.message_id, text=text, parse_mode='markdown',
         reply_markup=InlineKeyboardMarkup(buttons))
