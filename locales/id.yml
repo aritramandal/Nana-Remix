@@ -66,7 +66,7 @@ permission_view_str: "<b>Izin obrolan:</b>\n<b>Kirim Pesan:</b> {}\n<b>Kirim Med
 speed_test_trigger: "Pilih Mode TesKecepatan"
 speed_test_running: "Menjalankan teskecepatan...."
 # Gdrive Assistant
-gdrive_credential_err: "Halo, sepertinya Anda belum masuk ke Google Drive  🙂\\nSaya dapat membantu Anda untuk masuk.\n\nPertama-tama, Anda perlu mengaktifkan API Google Drive Anda\\n1. [Kesini](https://developers.google.com/drive/api/v3/quickstart/python), klik **Aktifkan API drive**\n2. Masuk ke akun Google Anda (lewati ini jika Anda sudah masuk)\\n3. Setelah login, klik **Aktifkan API drive** lagi, dan klik tombol **Unduh Konfigurasi Klien**, unduh itu.\n4. Setelah mengunduh file itu, buka file itu lalu salin semua konten itu, kembali ke telegram lalu lakukan .credentials (salin konten file itu) lakukan tanpa tanda kurung\n\nSetelah itu, Anda dapat melanjutkan ke panduan berikutnya dengan mengetik /gdrive"
+gdrive_credential_err: "Halo, sepertinya Anda belum masuk ke Google Drive  🙂\nSaya dapat membantu Anda untuk masuk.\n\nPertama-tama, Anda perlu mengaktifkan API Google Drive Anda\n1. [Kesini](https://developers.google.com/drive/api/v3/quickstart/python), klik **Aktifkan API drive**\n2. Masuk ke akun Google Anda (lewati ini jika Anda sudah masuk)\n3. Setelah login, klik **Aktifkan API drive** lagi, dan klik tombol **Unduh Konfigurasi Klien**, unduh itu.\n4. Setelah mengunduh file itu, buka file itu lalu salin semua konten itu, kembali ke telegram lalu lakukan .credentials (salin konten file itu) lakukan tanpa tanda kurung\n\nSetelah itu, Anda dapat melanjutkan ke panduan berikutnya dengan mengetik /gdrive"
 # Settings Module
 settings_userbot_stop: "Userbot: `Berhenti (v{})`\n"
 settings_userbot_running: "Userbot: `Berlari (v{})`\n"
