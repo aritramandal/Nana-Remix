@@ -14,9 +14,9 @@ alive_str: "**[Nana-Remix](https://github.com/pokurt/Nana-Remix):**\n - **ρομ
 gdrive_credential_err_heroku: "Γεια σου φαίνεται ότι δεν είσαι συνδεδεμένος στο google drive 😃 Εγώ μπορώ να σε βοηθήσω να συνδεθείς.\nΑρχικά πρέπει να ενεργοποιήσεις το google drive api.\n1. [Πήγαινε εδώ]('https://developers.google.com/drive/api/v3/quickstart/python'),\nΠάτησε ενεργοποιησε το  drive API\n2. Συνδέσου  στο λογαριασμό σου google (προσπέρασε το άμα έχεις ήδη συνδεθεί)\n3. Αφού συνδεθείς πάτησε ενεργοποιησε το drive api για άλλη μια φορά ,\nΚαι πάτησε το κουμπί κατέβασε Client Configuration , κατέβασε αυτό το αρχείο.\n4. Αφού το κατεβάσεις , Άνοιξε αυτό το αρχείο και  και αντέγραψε όλο το περιεχόμενο του , έπειτα πήγαινε στο dashboard.heroku.com, \nΔιαλεξε την εφαρμογή του και πήγαινε στις ρυθμίσεις. Πήγαινε στα config vars και βάλε ένα κλειδί με όνομα gdrive_credentials και η τιμή θα είναι αυτό που αντέγραψες πριν\nΜόλις το τελειώσεις αυτό για να πας στο επόμενο βήμα γράψε την εντολή /gdrive"
 # Adminlist Module
 # Adminlist
-adminlist_one: "**Διαχειριστές in {}**\n╒═══「 δημιουργός 」"
-adminlist_two: "╞══「 {} Ανθρώπινος Διαχειριστής 」"
-adminlist_three: "╞══「 {} Διαχειριστής του ρομπότ 」"
+adminlist_one: "**Διαχειριστές in {}**\n╒═══「 δημιουργός 」\n"
+adminlist_two: "╞══「 {} Ανθρώπινος Διαχειριστής 」\n"
+adminlist_three: "╞══「 {} Διαχειριστής του ρομπότ 」\n"
 adminlist_four: "╘══「 Συνολικοί {} διαχειριστές 」"
 # ReportAdmins
 reportadmins_one: "{} οι διαχειριστές ενημερώθηκαν "

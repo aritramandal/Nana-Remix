@@ -14,9 +14,9 @@ alive_str: "**[Nana-Remix](https://github.com/pokurt/Nana-Remix):**\n - **Bot**:
 gdrive_credential_err_heroku: "Hola, parece que no has iniciado sesión en Google Drive 🙂 puedo ayudarte a iniciar sesión.\nEn primer lugar, es necesario activar la API de google Drive\n1. [Ve aquí](https://developers.google.com/drive/api/v3/quickstart/python),\nhaga clic en Habilitar la API de la unidad\n2. Inicie sesión en su cuenta de Google (omita esto si ya ha iniciado sesión)\n3. Después de iniciar sesión, haga clic en Habilitar la API de la unidad de nuevo,\ny haga clic en el botón Descargar configuración de cliente, descárguelo.\n4. Después de descargar ese archivo, abra ese archivo y luego copie todo ese contenido en dashboard.heroku.com, \nseleccione sus aplicaciones y vaya a la configuración, vaya a config vars y luego agregue la clave con el nombre gdrive_credentials con el valor sus credenciales\nDespués de eso, puede ir a la siguiente guía por tipo /gdrive"
 # Adminlist Module
 # Adminlist
-adminlist_one: "**Administradoras in {}**\n╒═══「 Creator 」"
-adminlist_two: "╞══「 {} Administradora humana 」"
-adminlist_three: "╞══「 {} Administradora de bot 」"
+adminlist_one: "**Administradoras in {}**\n╒═══「 Creator 」\n"
+adminlist_two: "╞══「 {} Administradora humana 」\n"
+adminlist_three: "╞══「 {} Administradora de bot 」\n"
 adminlist_four: "╘══「 Totales {} Administradoras 」"
 # ReportAdmins
 reportadmins_one: "{} Reportada a las administradoras."

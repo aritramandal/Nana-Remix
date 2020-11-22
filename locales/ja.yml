@@ -14,9 +14,9 @@ alive_str: "**[ナナ-リミックス](https://github.com/pokurt/Nana-Remix):**\
 gdrive_credential_err_heroku: "こんにちは、あなたはグーグルドライブにログインしていないようです🙂私はあなたがログインするのを手伝うことができます。\nまず、GoogleドライブAPIをアクティブ化する必要があります\n1. [ここに移動](https://developers.google.com/drive/api/v3/quickstart/python)、\n[ドライブAPIを有効にする]をクリックします\n2. Googleアカウントにログインします（すでにログインしている場合は、これをスキップしてください）\n3.ログイン後、[ドライブAPIを有効にする]をもう一度クリックします。\n[クライアント構成のダウンロード]ボタンをクリックして、ダウンロードします。\n4.そのファイルをダウンロードしたら、そのファイルを開き、そのコンテンツをすべてコピーして、dashboard.heroku.comに移動します。\nアプリを選択して設定に移動し、config varsに移動して、gdrive_credentialsという名前のキーと資格情報の値を追加します\nその後、タイプ /gdrive で次のガイドに進むことができます"
 # Adminlist Module
 # Adminlist
-adminlist_one: "** {} **の管理者\n╒═══「 クリエーター 」"
-adminlist_two: "╞══「 {} 人間の管理者 」"
-adminlist_three: "╞══「 {} ボット管理者 」"
+adminlist_one: "** {} **の管理者\n╒═══「 クリエーター 」\n"
+adminlist_two: "╞══「 {} 人間の管理者 」\n"
+adminlist_three: "╞══「 {} ボット管理者 」\n"
 adminlist_four: "╘══「 合計 {} 管理者 」"
 # ReportAdmins
 reportadmins_one: "{}は管理者に報告されました。"
