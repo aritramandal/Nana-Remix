@@ -65,6 +65,14 @@ permission_view_str: "<b>Chat permissions:</b>\n<b>Send Messages:</b> {}\n<b>Sen
 # Speed-Test
 speed_test_trigger: "Select SpeedTest Mode"
 speed_test_running: "Runing a speedtest...."
+speed_test_result: "'**SpeedTest Results:**"
+speed_test_isp: "**ISP:**"
+speed_test_download: "**Download:**"
+speed_test_upload: "**Upload:**"
+speed_test_ping: "**Ping:**"
+speed_test_button_text: "Text"
+speed_test_button_image: "Image"
+
 # Gdrive Assistant
 gdrive_credential_err: "Hello, look like you're not logged in to google drive 🙂\n\nI can help you to login.\n\nFirst of all, you need to activate your google drive API\n1. [Go here](https://developers.google.com/drive/api/v3/quickstart/python), click **Enable the drive API**\n2. Login to your google account (skip this if you're already logged in)\n3. After logged in, click **Enable the drive API** again, and click **Download Client Configuration** button, download that.\n4. After downloaded that file, open that file then copy all of that content, back to telegram then do .credentials (copy the content of that file)  do without bracket\n\nAfter that, you can go next guide by type /gdrive"
 # Settings Module
